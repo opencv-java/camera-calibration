@@ -14,9 +14,6 @@ import org.opencv.core.Core;
  * This application opens an image stored on disk and perform the Fourier
  * transformation and antitranformation.
  * 
- * @author <a href="mailto:luigi.derussis@polito.it">Luigi De Russis</a>
- * @since 2013-12-11
- * 
  */
 
 public class FourierTransform extends Application {
