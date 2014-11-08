@@ -15,9 +15,6 @@ import org.opencv.core.Core;
  * This application looks for faces in the video stream by using the Haar
  * Classifier or the LBP Classifier.
  * 
- * @author <a href="mailto:luigi.derussis@polito.it">Luigi De Russis</a>
- * @since 2014-01-15
- * 
  */
 
 public class FaceDetection extends Application {
