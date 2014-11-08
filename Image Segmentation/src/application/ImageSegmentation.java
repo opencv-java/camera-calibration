@@ -17,9 +17,6 @@ public class ImageSegmentation extends Application {
 	 * This application apply the Canny filter to the camera video stream or try
 	 * to remove a uniform background with the erosion and dilation operators.
 	 * 
-	 * @author <a href="mailto:luigi.derussis@polito.it">Luigi De Russis</a>
-	 * @since 2013-12-20
-	 * 
 	 */
 	@Override
 	public void start(Stage primaryStage)
