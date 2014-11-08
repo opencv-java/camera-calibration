@@ -15,9 +15,6 @@ import javafx.fxml.FXMLLoader;
  * This application handles a video stream and perform all the needed steps for
  * calibrating a camera.
  * 
- * @author <a href="mailto:luigi.derussis@polito.it">Luigi De Russis</a>
- * @since 2013-11-25
- * 
  */
 public class CameraCalibration extends Application {
 	@Override
