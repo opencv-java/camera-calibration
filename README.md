@@ -4,6 +4,7 @@ In this repository are contained the source code solutions to the Laboratories o
 There are 7 Java projects, 6 of them uses JavaFX.
 These projects were developed with the Eclipse IDE and they use the OpenCV Library for Java.
 They come along with a set of tutorials, one for each project. You can find them at: __________.
+
 In order to use these projects you are going to need to:
 - download and install Ecplipse at: https://www.eclipse.org/home/index.php;
 - download and install Java Fx (follow the procedure) at: http://www.eclipse.org/efxclipse/install.html#fortheambitious;
