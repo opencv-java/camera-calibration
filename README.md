@@ -6,7 +6,7 @@ These projects were developed with the Eclipse IDE and they use the OpenCV Libra
 They come along with a set of tutorials, one for each project. You can find them at: http://polito-java-opencv-tutorials.readthedocs.org/en/latest/index.html.
 
 In order to use these projects you are going to need to:
-- download and install Ecplipse at: https://www.eclipse.org/home/index.php;
+- download and install Eclipse at: https://www.eclipse.org/home/index.php;
 - download and install Java Fx (follow the procedure) at: http://www.eclipse.org/efxclipse/install.html#fortheambitious;
 - download and install Scene Builder (optional) at: http://www.oracle.com/technetwork/java/javafx/tools/index.html;
 - download and install the OpenCV library at: http://opencv.org/;
