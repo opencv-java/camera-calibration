@@ -1,13 +1,9 @@
-Polito-Java-OpenCV-Tutorials-Source-Code
-========================================
-In this repository are contained the source code solutions to the Laboratories of the course “Computer Vision” of the Politecnico di Torino.
-There are 7 Java projects, 6 of them uses JavaFX.
-These projects were developed with the Eclipse IDE and they use the OpenCV Library for Java.
-They come along with a set of tutorials, one for each project. You can find them at: http://polito-java-opencv-tutorials.readthedocs.org/en/latest/index.html.
+## Camera Calibration with OpenCV and JavaFX
 
-In order to use these projects you are going to need to:
-- download and install Eclipse at: https://www.eclipse.org/home/index.php;
-- download and install Java Fx (follow the procedure) at: http://www.eclipse.org/efxclipse/install.html#fortheambitious;
-- download and install Scene Builder (optional) at: http://www.oracle.com/technetwork/java/javafx/tools/index.html;
-- download and install the OpenCV library at: http://opencv.org/;
-Check if in the build path of each project is present the user library "opencv-246" or the opencv-246.jar library.
+*Computer Vision course - [Politecnico di Torino](http://www.polito.it) - academic year 2013-2014*
+
+A project, made in Eclipse (Luna), for calibrate a webcam with a square pattern.
+
+Please, note that the project is an Eclipse project, made for teaching purposes. Before using it, you need to install the OpenCV library (version 2.4.6) and JavaFX (version 2 or superior) and create a `User Library` named `opencv2` that links to the OpenCV jar and native libraries.
+
+A tutorial can be find at: http://opencv-java-tutorials.readthedocs.org/en/latest/index.html.
