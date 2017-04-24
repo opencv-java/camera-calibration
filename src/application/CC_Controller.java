@@ -250,6 +250,7 @@ public class CC_Controller {
 			{
 				// save all the needed values
 				this.imagePoints.add(imageCorners);
+				imageCorners = new MatOfPoint2f();
 				this.objectPoints.add(obj);
 				this.successes++;
 			}
