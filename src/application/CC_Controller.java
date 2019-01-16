@@ -15,8 +15,7 @@ import org.opencv.core.MatOfPoint3f;
 import org.opencv.core.Point3;
 import org.opencv.core.Size;
 import org.opencv.core.TermCriteria;
-import org.opencv.highgui.Highgui;
-import org.opencv.highgui.VideoCapture;
+import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
 
 import javafx.application.Platform;
@@ -25,6 +24,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import org.opencv.videoio.VideoCapture;
 
 /**
  * The controller associated to the only view of our application. The
@@ -220,7 +220,7 @@ public class CC_Controller {
 						{
 							// prepare the undistored image
 							Mat undistored = new Mat();
-							Imgproc.undistort(frame, undistored, intrinsic, distCoeffs);
+							Calib3d.undistort(frame, undistored, intrinsic, distCoeffs);
 							undistoredImage = mat2Image(undistored);
 						}
 						
@@ -338,7 +338,7 @@ public class CC_Controller {
 			// create a temporary buffer
 			MatOfByte buffer = new MatOfByte();
 			// encode the frame in the buffer, according to the PNG format
-			Highgui.imencode(".png", frame, buffer);
+			Imgcodecs.imencode(".png", frame, buffer);
 			// build and return an Image created from the image encoded in the
 			// buffer
 			return new Image(new ByteArrayInputStream(buffer.toArray()));
