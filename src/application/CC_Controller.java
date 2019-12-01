@@ -282,7 +282,7 @@ public class CC_Controller {
 				// convert the frame in gray scale
 				Imgproc.cvtColor(frame, grayImage, Imgproc.COLOR_BGR2GRAY);
 				// the size of the chessboard
-				Size boardSize = new Size(this.numCornersHor, this.numCornersVer);
+				Size boardSize = new Size(this.numCornersVer, this.numCornersHor);
 				// look for the inner chessboard corners
 				boolean found = Calib3d.findChessboardCorners(grayImage, boardSize, imageCorners,
 						Calib3d.CALIB_CB_ADAPTIVE_THRESH + Calib3d.CALIB_CB_NORMALIZE_IMAGE + Calib3d.CALIB_CB_FAST_CHECK);
