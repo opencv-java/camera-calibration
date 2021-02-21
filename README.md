@@ -1,5 +1,7 @@
 ## Camera Calibration with OpenCV and JavaFX
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 *Computer Vision course - [Politecnico di Torino](http://www.polito.it) - academic year 2013-2014*
 
 A project, made in Eclipse (Luna), for calibrate a webcam with a square pattern.
